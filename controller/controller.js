@@ -13,6 +13,7 @@ const getData= async(req, res)=>{
 
 const  createData= async(req, res)=>{
     const item= req.body
+    console.log(item)
     if(!item){
        return res.status(500).json({message:"Pls enter the item"})
     }
