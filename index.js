@@ -8,7 +8,7 @@ mongoConnect()
 const app= express()
 
 app.use(cors({
-    origin:"http://localhost:5173"
+    origin:"https://poetic-medovik-ae7c50.netlify.app/"
 }))
 
 app.use(express.json())

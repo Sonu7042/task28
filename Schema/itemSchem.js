@@ -6,7 +6,6 @@ const itemSchema=  new mongoose.Schema({
 
 })
 
-
 const itemModel= new mongoose.model("items", itemSchema)
 
 
